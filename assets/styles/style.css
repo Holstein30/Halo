@@ -1,0 +1,49 @@
+/* Fonts */
+
+@font-face {
+  font-family: halo-main;
+  src: url(../fonts/Halo.ttf);
+}
+@font-face {
+  font-family: halo-outline;
+  src: url(../fonts/Halo-Outline.ttf);
+}
+
+* {
+  text-align: center;
+}
+
+html {
+  font-family: halo-main;
+}
+
+button {
+  font-family: inherit;
+}
+
+.hero {
+  background: url("../images/hero.png") no-repeat center;
+  height: 100vh;
+}
+
+.hero-h1 {
+  position: relative;
+  top: 50%;
+  color: #fff;
+  font-size: 6rem;
+}
+
+.btn-main {
+  position: relative;
+  top: 55%;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #000;
+  padding: 0.5rem 1rem;
+  opacity: 0.8;
+}
+
+.btn-main:hover {
+  opacity: 1;
+}
